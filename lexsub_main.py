@@ -149,7 +149,7 @@ if __name__ == "__main__":
 
     for context in read_lexsub_xml((sys.argv[1])):
         if len(sys.argv) > 2:
-            if sys.argv[3] == 3: # Sentiment analysis addition
+            if sys.argv[2] == 3: # Sentiment analysis addition
                 prediction = ernie.sentiment_predict(context)
             if sys.argv[2] == 2: # Word2Vec Embeddings
                 W2VMODEL_FILENAME = 'GoogleNews-vectors-negative300.bin.gz'
