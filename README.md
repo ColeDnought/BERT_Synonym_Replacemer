@@ -1,4 +1,4 @@
-# BERT_Synonym_Replacemer
+# BERT_Synonym_Replacer
 Demonstrates a variety of ways to replace a specified word with its closest synonym.
 
 # Use
